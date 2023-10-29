@@ -21,15 +21,7 @@ export default function App() {
     }, []);
 
     const getTextFromPhoto = async (uri) => {
-        const path = require('path');
-        const { createWorker } = require('tesseract.js');
-        // const image = path.resolve(__dirname, (uri));
-        
-        const worker = await createWorker("nor", 1);
-        console.log("ABABAB")
-        const { data: { text } } = await worker.recognize(uri);
-        console.log(text);
-        await worker.terminate();
+        navigation.navigate('src/views/loadingScreenView')
     }
 
     const takePicture = async () => {
