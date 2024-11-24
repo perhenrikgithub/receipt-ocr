@@ -30,8 +30,15 @@
     },
     "extra": {
       "eas": {
+<<<<<<< Updated upstream
         "projectId": "e77e3567-b8d2-4fd7-806c-a7641aa6f7c8"
       }
     }
+=======
+        "projectId": "0448fa7c-5e95-4dbc-bb3e-adda6d5c3000"
+      }
+    },
+    "owner": "kmuju"
+>>>>>>> Stashed changes
   }
 }
